@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Folha de Pagamento</title>
+  <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Folha de Pagamento</h1>
+      <div class="logo">PAY<span>Z</span>EN</div>
+    </header>
+
+    <div class="content">
+      <div class="payment-details">
+        <div class="section">
+          <label for="work-hours">Suas horas de trabalho</label>
+          <input type="number" id="work-hours" placeholder="Ex: 8" class="input-box">
+        </div>
+        <div class="section">
+          <label for="vale-transporte">Vale transporte</label>
+          <input type="number" id="vale-transporte" placeholder="Ex: 150" class="input-box">
+        </div>
+        <div class="section">
+          <label for="irrf">IRRF</label>
+          <input type="number" id="irrf" placeholder="Ex: 200" class="input-box">
+        </div>
+        <div class="section">
+          <label for="vale-alimentacao">Vale alimentação</label>
+          <input type="number" id="vale-alimentacao" placeholder="Ex: 300" class="input-box">
+        </div>
+        <div class="section">
+          <label for="inss">INSS</label>
+          <input type="number" id="inss" placeholder="Ex: 100" class="input-box">
+        </div>
+        <div class="section">
+          <label for="extra-hours">Horas extras</label>
+          <input type="number" id="extra-hours" placeholder="Ex: 2" class="input-box">
+        </div>
+        <div class="total">
+          <span>TOTAL</span>
+          <div class="yellow-box"></div>
+        </div>
+      </div>
+
+      <div class="history">
+        <div class="name">
+            <span class="name-text">Ana Julia</span> 
+        </div>
+        <div class="history-title">HISTÓRICO DE PAGAMENTO</div>
+        <ul class="history-list">
+          <li>Salário jan/24: xxxR$</li>
+          <li>Salário fev/24: xxxR$</li>
+          <li>Salário mar/24: xxxR$</li>
+          <li>Salário abr/24: xxxR$</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="export">
+      <button>Exportar</button>
+    </div>
+  </div>
